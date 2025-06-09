@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-f1=open("model_heart.pkl","rb")
+f1=open("model_heart.pkl","rb") # File open command
 model=pickle.load(f1)
 f1.close()
 st.title("Heart Disease Prediction")
